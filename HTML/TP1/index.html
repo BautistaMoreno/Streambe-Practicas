@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>tp1</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- #region <style>
+        table {
+            width: 100%;
+            border: 2px solid black; 
+            border-collapse: collapse;
+        }
+
+        th, td {
+            border: 1px solid black; 
+            padding: 8px;
+            text-align: center;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>-->
+</head>
+<body>
+    <header><h2>Tp1 </h2></header>
+    <p><h3>Moreno Bautista</h3></p>
+    <p><h3>EESTN9 </h3></p>
+    <p><h3>GeneracionT</h3></p>
+    <div>
+    <h3>super heroes favoritos</h3>
+    <ul>
+        <li>-thor</li>
+        <li>-hulk</li>
+        <li>-iron man</li>
+    </ul>
+    <h3>villanos favoritos</h3>
+    <ol>
+        <li>-el guason (Heath Ledger)</li>
+        <li>-cruella(Emma Stonne)</li>
+        <li>-thanos(Josh Brolin)</li>
+    </ol>
+    </div>
+    <div>
+    <h3>jugadores de futbol Argentinos</h3>
+        <ul>
+            <li><a href="https://es.wikipedia.org/wiki/Lionel_Messi">Lionel messi</a></li>
+            <li><a href="https://es.wikipedia.org/wiki/%C3%81ngel_Di_Mar%C3%ADa">Angel DiMaria</a></li>
+            <li><a href="https://es.wikipedia.org/wiki/Emiliano_Mart%C3%ADnez">Emiliano Martinez</a></li>
+        </ul>
+    </div>
+    <div>
+        <h3>imagenes y informacion de los villanos</h3>
+        <img src="guason.jpg" alt="guason">
+        <br>
+        <p><h4>El Joker (tambien conocido como el Guason o el Comodin) es un personaje de la pelicula The Dark Knight, interpretado por Heath Ledger. Se trata de una despiadada mente criminal que aterroriza Ciudad Gotica, y sin objetivo alguno.</h4></p>
+        <img src="cruella.jpg" alt="cruella">
+        <br>
+        <p><h4>Cruella es una mujer extremadamente delgada que casi parece esqueletica por sus curvas. Tiene la piel palida, labios rojos, ojos verdes y sombra de ojos. Tiene el pelo hasta los hombros, cuyas dos mitades son de distinto color; el lado derecho es negro y el izquierdo blanco.</h4></p>
+        <img src="thanos.jpg" alt="thanos">
+        <p><h4>Thanos era el hijo de Mentor y su esposa Sui-San, y hermano del vengador Eros, alias Starfox. A diferencia de la mayor parte de su especie, Thanos portaba genes viciados, pertenecientes a la raza prima de los Titanes, los Desviantes. Debido a ello, su aspecto era simiesco y deforme.</h4></p>
+    </div>
+    <div>
+        <h3><u>batalla epica</u></h3>
+        <video width="640" height="360" controls>
+            <source src="https://drive.google.com/drive/folders/1he9ZPoaau1BZQ83KTTvDKC3rSsmBKK6w?hl=es" type="video/mp4">
+    </div>
+    <div>
+        <video width="640" height="360" controls>
+            <source src="https://drive.google.com/drive/folders/1he9ZPoaau1BZQ83KTTvDKC3rSsmBKK6w?hl=es" type="video/mp4">
+    </div>
+    <br>
+    <br>
+    <br>
+    <div>
+        <form="/action_page.php">
+            <label type="text">Nombre Completo:</label>
+            <input type="text" id="name"><br><br>
+
+            <label type="text">Mail:</label>   
+            <input type="mail" id="Mail">
+
+            <label type="number">edad:</label>
+            <input type="number" id="Edad">
+        </form>
+    </div>
+    <div>
+        <form>
+            <label for="categorias">Selecciona una categoria:</label>
+            <select id="categorias" name="categorias">
+              <option value="sub12">sub12</option>
+              <option value="sub15">sub15</option>
+              <option value="sub18">sub18</option>
+            </select>
+            
+            
+          </form>
+    </div>
+    <div>
+    <form>
+
+        
+        <label>Selecciona una posicion:</label><br>
+        <input type="radio" id="delantero" name="posicion" value="delantero">
+        <label for="delantero">Delantero</label><br>
+        
+        <input type="radio" id="mediocampista" name="posicion" value="mediocampista">
+        <label for="mediocampista">Mediocampista</label><br>
+        
+        <input type="radio" id="defensa" name="posicion" value="defensa">
+        <label for="defensa">Defensa</label><br>
+        
+        <input type="radio" id="portero" name="posicion" value="portero">
+        <label for="portero">Portero</label><br>
+        
+        <br>
+        
+        
+      </form>
+    </div>
+    <div>
+        <input type="checkbox" id="verificacion" name="verificacion" value="acepto terminos y condiciones" required>
+        <label for="verificacion">acepto terminos y condiciones</label><br>
+    </div>
+    <input type="submit" value="Enviar">
+    <div>
+        <h3>tabla de jugadores </h3>
+        
+        <table border="2">
+            <thead>
+                <tr>
+                    <th>Nombre del Jugador</th>
+                    <th>Pais</th>
+                    <th>Partidos Ganados</th>
+                    <th>Partidos Perdidos</th>
+                    <th>Puntos Totales</th>
+                </tr>
+            </thead>
+            <tr>
+              <td>Bautista Moreno</td>
+              <td>Argentina</td>
+              <td>120</td>
+              <td>20</td>
+              <td>2400</td>
+            </tr>
+            <tr>
+              <td>Lea Oyola</td>
+              <td>Argentina</td>
+              <td>110</td>
+              <td>30</td>
+              <td>2200</td>
+            </tr>
+            <tr>
+              <td>Rodriguez Tobias</td>
+              <td>Argentina</td>
+              <td>100</td>
+              <td>40</td>
+              <td>2000</td>
+            </tr>
+          </table>
+    </div>
+</body>
+<footer>
+    <h2>(footer)EESTN9 Moreno Bautista</h2>
+</footer>
+</html>

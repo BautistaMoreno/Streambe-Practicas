@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>portafolio</title>
+</head>
+
+<body>
+    <nav>
+        <a href="#home" class="active">Moreno Bautista</a>
+        <a href="#portafolio">Portafolio</a>
+        <a href="#acercademi">Acerca De Mi</a>
+        <a href="#contacto">Contactame</a>
+        <a href="#micontacto">Mi Contacto</a>
+
+    </nav>
+    <div id="home" class="profile-header">
+        <img src="images/yo2.0.jpg" alt="Profile Image" class="profile-image">
+        <h1 class="profile-name">Moreno Bautista</h1>
+        <p class="profile-title">Estudiante</p>
+    </div>
+
+    <div id="portafolio" class="conteiner">
+        <div class="column"><img src="images/ejemplo.png" alt="Profile Image"></div>
+        <div class="column"><img src="images/ejemplo.png" alt="Profile Image"></div>
+        <div class="column"><img src="images/ejemplo.png" alt="Profile Image"></div>
+    </div>
+
+    <div id="acercademi" class="acerca-de-mi">
+        <h2>Acerca de mí</h2><hr>
+        <p>Soy un estudiante de la EEST N°9 de la Ciudad de La Plata, estoy por el 7° y ultimo año de la secundaria, me resivire de Tecnico en Programacion si dios quiere.</p>
+    </div>
+
+    <section id="contacto">
+        <div><h3>Contacto</h3></div>
+        <form id="contact-form">
+            <div class="form-group">
+                <label for="nombre">Nombre Completo:</label><br>
+                <input type="text" id="nombre" name="nombre" placeholder="Nombre y Apellido" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" placeholder="Email" required>
+            </div>
+            <div class="form-group">
+                <label for="telefono">Número de Teléfono:</label><br>
+                <input type="tel" id="telefono" name="telefono" placeholder="Teléfono" required>
+            </div>
+            <div class="form-group">
+                <label for="mensaje">Mensaje:</label><br>
+                <textarea id="mensaje" name="mensaje" rows="5" placeholder="Escribe tu mensaje aquí" required></textarea>
+            </div>
+            <button type="submit">Enviar Mensaje</button>
+        </form>
+    </section>
+
+    <footer id="micontacto">
+        <p>Moreno Bautista</p>
+        <p>Email: bauty.1970gmail.com</p>
+        <p>Teléfono: (221) 603-0185</p>
+        <div class="social-icons">
+            <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.instagram.com/bautymgk/" target="_blank"><i class="fab fa-instagram"></i></a>
+
+        </div>
+        <p>&copy; 2024 Moreno Bautista. Todos los derechos reservados.</p>
+    </footer>
+
+
+</body>
+</html>

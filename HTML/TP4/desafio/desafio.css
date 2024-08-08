@@ -1,0 +1,43 @@
+.body{
+    background-color: black;
+}
+
+/*falta la casa*/
+
+.container {
+    margin-top: 220px;
+    text-align: center;
+    background-color: #242424;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+.img{
+    border-radius: 12px;
+    width: 300px;
+    height: auto;
+}
+.parra{
+    color: aliceblue;
+}
+#derecha{
+    border-radius: 8px;
+    color: blue;
+    background-color: rgb(43, 148, 148);
+    border: none;}
+#izquierda{
+    border-radius: 8px;
+    color: blue;
+    background-color: rgb(43, 148, 148);
+    border:none
+}
+#buchon{
+    border-radius: 12px;
+    width: 1400px;
+    height: auto;
+    background-color: black;
+}
+h1{
+    color: aliceblue;
+    text-align: center;
+}

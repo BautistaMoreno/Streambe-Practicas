@@ -1,0 +1,102 @@
+.carnivoros{
+    background-color: red;
+    border: 2px solid ;
+    border-style: dashed;
+    width: 377px;
+    height: 500px;
+
+}
+.herbivoros{
+    background-color: lightgreen;
+    border: 2px solid ;
+    border-style: dashed;
+    width: 377px;
+    height: 450px;
+
+}
+#trex{
+    font-size: 24px;
+    color: darkslateblue;
+}
+#triceratops{
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.brontosaurio{
+   
+    background-color: lightgreen;
+    border: 2px solid ;
+    border-style: dashed;
+    width: 600px;
+    height: 600px;
+}
+
+
+.voladores{
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    border: 2px solid ;
+    border-style: dashed;
+    width: 377px;
+    height: 450px;
+
+}
+.acuaticos{
+    font-style: italic;
+    color: blue;
+    border: 2px solid ;
+    border-style: dashed;
+    width: 377px;
+    height: 450px;
+    border-color: black;
+}
+.guia{
+    color: brown;
+    padding-left: 600px;
+    font-size: large;
+}
+.marron{
+    color: brown;
+}
+
+
+body{
+    background-color: antiquewhite;
+}
+
+.titulo{
+    padding-left: 35px;
+}
+.centrar{
+    text-align: center;
+}
+.guias{
+    color: brown;
+    text-align: center;
+}
+.tablas{
+    border: 1px solid black;
+    padding: 8px;
+}
+
+.lista{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+.margen{
+    margin-right: 10px;
+
+}
+.atraccion{
+
+    letter-spacing: 2px;
+    align-items: flex-start;
+    margin-top: -3650px;
+    float: right;
+    border: 5px solid black;
+    border-style: outset;
+    width: 500px;
+    height: 500px;
+}

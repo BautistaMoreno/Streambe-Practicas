@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+    .body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+    }
+
+    .grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 50px);
+    grid-template-rows: repeat(4, 50px);
+    gap: 5px;
+    }
+
+    .grid-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #4caf50;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    }
+
+    .grid-item.a1{
+        background:orange;
+    }
+    .grid-item.a2{
+        background: red;
+    }
+
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>practica Grid</title>
+</head>
+<body>
+    <div class="grid-container">
+        <div class="grid-item a1">A</div>
+        <div class="grid-item a2">A</div>
+        <div class="grid-item a3">A</div>
+        <div class="grid-item a4">A</div>
+        <div class="grid-item a5">A</div>
+        <div class="grid-item a6">A</div>
+        <div class="grid-item a7">A</div>
+        <div class="grid-item a8">A</div>
+        <div class="grid-item a9">A</div>
+        <div class="grid-item a10">A</div>
+        <div class="grid-item a11">A</div>
+    </div>
+    <!-- esto agrega las columnas "grid-template-columns: 1fr 2fr 1fr;"  -->
+    <!-- esto agrega las columnas "grid-template-rows: 1fr 2fr 1fr;"  -->
+    <!-- esto agrega espacio entre columnas "grid-template-gap: 1fr 2fr 1fr;"  -->
+    <!-- se puede usar la estructura "repeat" para no tenes que poner 1fr, 2fr, 2fr, ETC. El repeat va despues de el grid indicado EJ: grid-templates-columns: repeat (12, 1fr) -->
+    
+    
+</body>
+</html>
