@@ -20,4 +20,3 @@ Un camino al oscar, presentando posibles ganadores
 Un Ecomerce que tiene un stock de productos
 
 En la carpeta ReacJs: se encuentran los trabajos realizados con ReactJs
-
