@@ -18,3 +18,6 @@ Una base de datos para guardar peliculas y sus datos
 Un filtro de edades
 Un camino al oscar, presentando posibles ganadores 
 Un Ecomerce que tiene un stock de productos
+
+En la carpeta ReacJs: se encuentran los trabajos realizados con ReactJs
+
